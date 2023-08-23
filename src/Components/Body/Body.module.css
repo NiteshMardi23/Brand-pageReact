@@ -1,0 +1,84 @@
+/* Your CSS file, let's call it styles.module.css */
+
+/* Flex container for the entire content */
+.container {
+    position: relative;
+    margin-top: 30px;
+    display: flex; /* Set to display as flex container */
+    justify-content: space-around; /* Apply space around the items */
+    align-items: center; /* Align items vertically in the center */
+  }
+/*   
+  /* Styles for the content within .container */
+  .container_content {
+    /* Add your existing styles for the content here */
+    /* background-color: aqua; */
+    height: 450px;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .container_content h1{
+    margin-left: 10px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  .container_content p{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  /* Styles for the buttons */
+  .container_btn {
+    position: relative;
+    margin: 20px 20px;
+    display: flex;
+    gap:30px;
+    /* Add your existing styles for the button container here */
+  }
+  .container_btn button{
+    margin-left: 20px;
+    padding: 6px 16px;
+    background: rgb(24, 23, 23);
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .container_btn button:hover {
+    background-color: #fff;
+    color: #111; /* New background color on hover */
+    transition: background-color 0.5s ease; /* Smooth transition effect */
+  }
+  
+  /* Styles for the shopping logos */
+  .shopping {
+    /* Add your existing styles for the shopping logos here */
+    width: 45%;
+    margin-left: 36px;
+  }
+  .shopping h3{
+    font-size: 20px;
+  }
+  .shopping img{
+    margin-right: 85px;
+  }
+  
+  /* Styles for the image container */
+  .container_image{
+    margin-right: 30px;
+  }
+  
+  /* Styles for the image itself */
+  .container_image img {
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+    margin-right: 40px; 
+       
+  }
+   
+ 
